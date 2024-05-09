@@ -1,20 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-05-09T07:47:59.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="MFzcTjDA3LCTQTbE73Bq" version="24.3.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-09T08:05:13.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="rEUWXGJ3icNUC48f5E1M" version="24.3.1" type="github" pages="2">
   <diagram name="Page-1" id="vi-skf5U6foYL7rZOOUz">
     <mxGraphModel dx="1192" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MvNkE9TWbENgZuc7oFfd-5" value="get_masteridx" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="80" width="200" height="200" as="geometry" />
+          <mxGeometry x="557.5" y="40" width="212.5" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="MvNkE9TWbENgZuc7oFfd-6" value="get all filings and save the files in&amp;nbsp;&lt;div&gt;t&lt;span style=&quot;background-color: initial;&quot;&gt;he folders of their respective&lt;/span&gt;&lt;div&gt;&lt;div&gt;Date File&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="MvNkE9TWbENgZuc7oFfd-5">
-          <mxGeometry y="25" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MvNkE9TWbENgZuc7oFfd-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MvNkE9TWbENgZuc7oFfd-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="155" y="350" as="sourcePoint" />
-            <mxPoint x="180" y="330" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="MvNkE9TWbENgZuc7oFfd-6" value="Get all filings and save the files in&amp;nbsp;&lt;div&gt;t&lt;span style=&quot;background-color: initial;&quot;&gt;he folders of their respective&lt;/span&gt;&lt;div&gt;&lt;div&gt;Date File&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Export: All filings information&lt;/div&gt;&lt;div&gt;&amp;nbsp;in txt format&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="MvNkE9TWbENgZuc7oFfd-5">
+          <mxGeometry x="12.5" y="25" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="MvNkE9TWbENgZuc7oFfd-12" value="[txt] List of filings" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="330" width="140" height="140" as="geometry" />
@@ -117,6 +111,36 @@
         </mxCell>
         <mxCell id="MvNkE9TWbENgZuc7oFfd-45" value="Check for frequency of the term&lt;div&gt;&amp;nbsp;provided&lt;div&gt;Generate relevancy of the&amp;nbsp;&lt;/div&gt;&lt;div&gt;filing to the term&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;OUTPUT: Ranking of related filings&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="MvNkE9TWbENgZuc7oFfd-44">
           <mxGeometry x="5" y="35" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYJxlyQk0mXsRX8CPg9p-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="ZYJxlyQk0mXsRX8CPg9p-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="150" as="sourcePoint" />
+            <mxPoint x="480" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYJxlyQk0mXsRX8CPg9p-2" value="[txt] Folder named 1994 -&amp;gt; 2024" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYJxlyQk0mXsRX8CPg9p-3" value="Scrape and write all index files from all quarters from 1994 -&amp;gt; 2024" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZYJxlyQk0mXsRX8CPg9p-2">
+          <mxGeometry y="30" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYJxlyQk0mXsRX8CPg9p-7" value="collect_entity_filings.py" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYJxlyQk0mXsRX8CPg9p-8" value="Using the text format of the&amp;nbsp;&lt;div&gt;index filings&lt;div&gt;Get all FileName and their&amp;nbsp;&lt;/div&gt;&lt;div&gt;corresponding CIK&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Export: Listing of filings&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZYJxlyQk0mXsRX8CPg9p-7">
+          <mxGeometry x="25" y="50" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYJxlyQk0mXsRX8CPg9p-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.014;exitY=0.336;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ZYJxlyQk0mXsRX8CPg9p-7" source="ZYJxlyQk0mXsRX8CPg9p-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="155" y="150" as="sourcePoint" />
+            <mxPoint x="230" y="107" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYJxlyQk0mXsRX8CPg9p-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.393;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZYJxlyQk0mXsRX8CPg9p-7" target="MvNkE9TWbENgZuc7oFfd-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="450" as="sourcePoint" />
+            <mxPoint x="310" y="400" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
